@@ -5,87 +5,61 @@ import Product from "./Product";
 function Home() {
   return (
     <div className="home">
-      {/* <p>I am the home component</p> */}
-
       <div className="home__container">
         <img
           className="home__image"
           src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-          alt="Amazon Prime"
+          alt=""
         />
 
         <div className="home__row">
           <Product
-            id="214324"
-            title={`The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses`}
-            price={35.25}
-            image={
-              "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
-            }
+            id="12321341"
+            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+            price={11.96}
             rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
           />
           <Product
-            id="4326483"
-            title={
-              "KenWood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Doug Hook and Whisk, 5 Litre Glass Bowl"
-            }
-            price={255.0}
-            image={
-              "https://images-na.ssl-images-amazon.com/images/I/61aT8jl8THL._AC_SX679_.jpg"
-            }
+            id="49538094"
+            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+            price={239.0}
             rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
         </div>
 
         <div className="home__row">
           <Product
-            id="987098"
-            title={
-              "Samsung LC27F398FWNXZA Samsung C27F398 27 Inch Curved LED Monitor"
-            }
-            price={499.99}
-            image={
-              "https://m.media-amazon.com/images/I/91SZVWfPjdL._AC_UY218_.jpg"
-            }
+            id="4903850"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            price={199.99}
             rating={3}
+            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
           />
           <Product
-            id="098774"
-            title={
-              "Echo Dot (3rd Gen) bundle with Amazon Smart Plug - Sandstone"
-            }
-            price={70.99}
-            image={
-              "https://m.media-amazon.com/images/I/51hZ1Ix1bdL._AC_UL320_.jpg"
-            }
+            id="23445930"
+            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+            price={98.99}
             rating={5}
+            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
           />
           <Product
-            id="984738"
-            title={
-              "Apple iPad Pro (2017) 12.9in 64GB Wi-Fi Tablet, Space Gray (Renewed)"
-            }
-            price={777.77}
-            image={
-              "https://m.media-amazon.com/images/I/61jpKblMqtL._AC_UY218_.jpg"
-            }
+            id="3254354345"
+            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+            price={598.99}
             rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
         </div>
 
         <div className="home__row">
-          {/* Samsung CJ890 Series 49 inch 3840x1080 Super Ultra-Wide Desktop Monitor for Business, 144 Hz, USB-C, HDMI, DisplayPort, 3-Year Warranty (C49J890DKN)
-           */}
           <Product
-            id="56577"
-            title={
-              "Samsung CJ890 Series 49 inch 3840x1080 Super Ultra-Wide Desktop Monitor for Business, 144 Hz, USB-C, HDMI, DisplayPort, 3-Year Warranty (C49J890DKN)"
-            }
-            price={1010.5}
-            image={
-              "https://m.media-amazon.com/images/I/61Hh-0F7AbL._AC_UY218_.jpg"
-            }
+            id="90829332"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            price={1094.98}
             rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
       </div>
